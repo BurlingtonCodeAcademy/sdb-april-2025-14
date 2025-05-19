@@ -34,3 +34,15 @@ console.log("our furniture after unshift: ", furniture);
 
 furniture.shift()
 console.log("our furniture after shift: ", furniture);
+
+let cars = ["honda", "toyota", "ford", "chevy", "nissan"];
+console.log("our cars: ", cars);
+
+let domesticCars = cars.slice(2, 4)
+console.log("our domestic cars: ", domesticCars);
+
+let someWords = ["this", "class", "is", "a", "great", "way", "to", "learn"]
+console.log("some words: ", someWords);
+
+let someSentence = someWords.join(" ")
+console.log("some sentence: ", someSentence);
