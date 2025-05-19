@@ -46,3 +46,15 @@ console.log("some words: ", someWords);
 
 let someSentence = someWords.join(" ")
 console.log("some sentence: ", someSentence);
+
+let someFruits = ["apple", "banana", "cherry", "date"]
+console.log("some fruits: ", someFruits);
+
+someFruits.splice(1, 2)
+console.log("some fruits after splice: ", someFruits);
+
+someFruits.splice(1, 0, "blueberry", "kiwi")
+console.log("AGAIN some fruits after splice: ", someFruits);
+
+someFruits.splice(2, 1, "mango", "pear", "pineapple")
+console.log("AGAIN AGAIN some fruits after splice: ", someFruits);
