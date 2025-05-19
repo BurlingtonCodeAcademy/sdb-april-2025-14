@@ -58,3 +58,9 @@ console.log("AGAIN some fruits after splice: ", someFruits);
 
 someFruits.splice(2, 1, "mango", "pear", "pineapple")
 console.log("AGAIN AGAIN some fruits after splice: ", someFruits);
+
+let listOfFamousPeople = "George Washington and Nicolas Cage and Superman"
+console.log("list of famous people: ", listOfFamousPeople);
+
+let famousPeopleList = listOfFamousPeople.split(" and ")
+console.log("famous people list: ", famousPeopleList);
