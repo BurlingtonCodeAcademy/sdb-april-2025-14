@@ -64,3 +64,13 @@ console.log("list of famous people: ", listOfFamousPeople);
 
 let famousPeopleList = listOfFamousPeople.split(" and ")
 console.log("famous people list: ", famousPeopleList);
+
+let scores = [85, 32, 64, 32, 48, 78, 32]
+console.log("scores: ", scores);
+console.log("index of 32: ", scores.indexOf(32))
+console.log("last index of 32: ", scores.lastIndexOf(32))
+console.log("is it included?: ", scores.includes(100))
+let result = scores.find(score => score > 70);
+console.log("results: ", result)
+let moreResults = scores.filter(score => score > 70);
+console.log("scores greater than 70: ", moreResults)
