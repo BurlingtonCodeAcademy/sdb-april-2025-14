@@ -87,3 +87,20 @@ function findAllIndices(array, element) {
 
 let indices = findAllIndices(scores, 32);
 console.log("indices of 32: ", indices)
+
+// basic Fibonacci function taking n as input for the number of elements
+function generateFibonacciArray(n) {
+    // create array with initial fibonacci numbers
+    let fibArray = [0, 1];
+
+    // generate the fibonacci seuqeunce up to the nth number
+    for (let i = 2; i < n; i++) {
+        // each new element is the sum of the previous two elements
+        fibArray.push(fibArray[i - 1] + fibArray[i - 2])
+    }
+
+    return fibArray;
+}
+
+const fibSequence = generateFibonacciArray(100);
+console.log("Fibonacci sequence: ", fibSequence);
